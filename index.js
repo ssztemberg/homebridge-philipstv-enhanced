@@ -979,7 +979,7 @@ HttpStatusAccessory.prototype = {
 
             return [informationService, this.switchService, this.volumeService, this.NextInputService, this.PreviousInputService, this.ambilightService];
         } else {
-            return [informationService, this.switchService, this.NextInputService, this.PreviousInputService, this.volumeService];
+            return [informationService, this.switchService];
         }
     }
 };
